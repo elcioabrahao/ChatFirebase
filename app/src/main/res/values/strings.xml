@@ -5,4 +5,6 @@
     <string name="quero_me_cadastrar">Quero me cadastrar</string>
     <string name="data_nome">Em %s, %s diz:</string>
     <string name="digite_sua_mensagem">Digite a sua mensagem</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="data_localization">Lat: %s, Long: %s</string>
 </resources>

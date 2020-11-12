@@ -1,4 +1,4 @@
-package br.usjt.ucsist.chatfirebase
+package br.usjt.ucsist.chatfirebase.util
 
 import java.text.SimpleDateFormat
 import java.util.*
