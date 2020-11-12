@@ -126,7 +126,7 @@ class ChatActivity : AppCompatActivity() {
     }
 
     fun enviarMensagem(view: View?) {
-
+        getLastKnownLocation()
         Log.w("LOCALIZACAO", "Cliquei: " + latitude + " " + longitude)
         val mensagem = mensagemEditText!!.text.toString()
         val m = Mensagem(
