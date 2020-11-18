@@ -28,17 +28,25 @@
         android:layout_marginStart="20dp"
         android:hint="@string/dica_senha"
         android:inputType="textPassword"/>
+    <ImageButton
+        android:id="@+id/buttonBiometria"
+        android:background="@drawable/ic_fingerprint_disable"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:onClick="fazerLogin"
-        android:layout_gravity="end"
-        android:layout_marginEnd="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@android:string/ok"/>
     <Button
         android:onClick="irParaCadastro"
-        android:layout_gravity="end"
-        android:layout_marginEnd="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/quero_me_cadastrar"
